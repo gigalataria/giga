@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.container {
+  width: 350px;
+  background-color: #1c2529;
+  height: 550px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-angle-left {
+  background-color: white;
+  color: darkgreen;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 25px;
+}
+
+.fa-bars {
+  background-color: white;
+  color: darkgreen;
+  padding: 10px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  text-align: center;
+  margin: 25px;
+}
+
+.img-1 {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 100%;
+  border: white 8px solid;
+  box-shadow: 2px 2px 12px lightgreen;
+}
+
+.text-container {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 12px lightgreen;
+}
+
+p {
+  color: rgb(248, 193, 174);
+}
